@@ -1,5 +1,6 @@
 def calcularMedia(notas):
-    if len(notas) != 0:
+    soma = 0
+    if len(notas) == 0:
         return 0
   
     else:
