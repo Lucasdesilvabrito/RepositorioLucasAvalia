@@ -11,3 +11,9 @@ dados = [
     ("Rodrigo Tadeu", [10,10,10,10,10])
 ]
 
+rec = alunosRecuperacao(dados)
+if len(rec) > 0:
+    print(f"Os alunos a seguir estão de recuperação: {rec}")
+
+else:
+    print("Nao existem alunos de recuperação")
